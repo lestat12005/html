@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+<camera id="0">
+<name>Street ch0</name>
+<uin>YWRtaW46cXdhc3BsMTk4Mg==</uin>
+<url>rtsp://37.57.197.233:554/mpeg4/ch01/main/av_stream</url>
+</camera>
+<camera id="1">
+<name>Street ch1</name>
+<uin>YWRtaW46cXdhc3BsMTk4Mg==</uin>
+<url>rtsp://37.57.197.233:554/mpeg4/ch01/sub/av_stream</url>
+</camera>
+<camera id="2">
+<name>Street ch0</name>
+<uin>YWRtaW46cXdhc3BsMTk4Mg==</uin>
+<url>rtsp://37.57.197.233:13554/mpeg4/ch01/main/av_stream</url>
+</camera>
+<camera id="3">
+<name>Street ch1</name>
+<uin>YWRtaW46cXdhc3BsMTk4Mg==</uin>
+<url>rtsp://37.57.197.233:13554/mpeg4/ch01/sub/av_stream</url>
+</camera>
+<camera id="4">
+<name>Street ch0</name>
+<uin>YWRtaW46cXdhc3BsMTk4Mg==</uin>
+<url>rtsp://37.57.197.233:17554/mpeg4/ch02/main/av_stream</url>
+</camera>
+<camera id="5">
+<name>Street ch1</name>
+<uin>YWRtaW46cXdhc3BsMTk4Mg==</uin>
+<url>rtsp://37.57.197.233:17554/mpeg4/ch02/sub/av_stream</url>
+</camera>
+</information>

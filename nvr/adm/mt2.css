@@ -1,0 +1,84 @@
+input[type="submit"]
+{
+	font-weight:bold; color:#1e2228; min-width:110px; height:24px; border:1px solid gray; padding: 0 10px 0 10px;
+}
+input[type="submit"]:hover { box-shadow: 1px 1px 3px 0 rgba(50, 50, 50, 1); cursor:pointer; }
+select
+{
+	font-weight:bold; color:#1e2228; min-width:110px; height:20px; border:1px solid gray; padding: 0 10px 0 10px;
+}
+input[type="text"] { height:18px; border:1px solid #818181; padding-left: 2px;}
+input[type="password"] { height:18px; border:1px solid #818181; padding-left: 2px;}
+input[type="text"]:focus { border:1px solid red; }
+
+
+.hTable
+{
+	width: 1020px;
+	border: 1px solid grey;
+	margin: 8px;	
+}
+.hTable td
+{
+	padding: 4px;
+	/*border: 1px solid grey;*/
+}
+/*-----------------------Admin-------------------------*/
+.fixed_headers_adm
+{
+	width: 1020px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border: 1px solid grey;
+	margin: 8px 8px 15px 8px;	
+}
+
+
+.fixed_headers_adm th
+{
+	text-decoration: underline; 
+	border: 0px solid red;
+	padding: 4px 2px;
+	text-align: center;
+}
+.fixed_headers_adm td
+{
+	
+	padding: 4px 2px;
+	vertical-align: middle;
+	border: 0px solid red;
+}
+
+.fixed_headers_adm td:nth-child(1), .fixed_headers_adm th:nth-child(1) { width: 245px; text-align: center; }
+.fixed_headers_adm td:nth-child(2), .fixed_headers_adm th:nth-child(2) { width: 245px; text-align: center; }
+.fixed_headers_adm td:nth-child(3), .fixed_headers_adm th:nth-child(3) { width: 155px; text-align: center; }
+.fixed_headers_adm td:nth-child(4), .fixed_headers_adm th:nth-child(4) { width: 140px; text-align: center; }
+.fixed_headers_adm td:nth-child(5), .fixed_headers_adm th:nth-child(5) { width: 105px; text-align: center; }
+.fixed_headers_adm td:nth-child(6), .fixed_headers_adm th:nth-child(6) { width: 105px; text-align: center; }
+
+.fixed_headers_adm thead {
+	/*background-color: #93A3BC;*/
+	background-color: #A5B7D3;
+	color: #000;
+	
+}
+.fixed_headers_adm thead tr {
+	display: block;
+	position: relative;
+	
+}
+
+
+.fixed_headers_adm tbody
+{
+	display: block;
+	overflow: auto;
+	width: 100%;
+	height: 680px;
+}
+
+.fixed_headers_adm tbody tr:nth-child(even)
+{
+	background-color: #ececec;
+}
+/*------------------------------------------------------------------*/

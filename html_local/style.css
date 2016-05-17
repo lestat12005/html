@@ -1,0 +1,232 @@
+body {
+    margin:0;
+    background:#212121;
+    font-family: Arial, HelvRoman;
+}
+
+.page {
+    width:1200px;
+    margin: 0 auto;
+}
+
+.page h1{
+    background: #ebb835;
+    background: -moz-linear-gradient(top, #ebb835 0%, #f79013 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebb835), color-stop(100%, #f79013));
+    background: -webkit-linear-gradient(top, #ebb835 0%, #f79013 100%);
+    background: -o-linear-gradient(top, #ebb835 0%, #f79013 100%);
+    background: -ms-linear-gradient(top, #ebb835 0%, #f79013 100%);
+    background: linear-gradient(top, #ebb835 0%, #f79013 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebb835', endColorstr='#f79013', GradientType=0 );
+    color: #202020;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px #f7ba5a;
+    font-family: HelvMed, "HelveticaNeueCyr", "Trebuchet MS", Trebuchet;
+    text-transform: uppercase;
+    height: 28px;
+    line-height: 28px;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -khtml-border-radius: 3px 3px 0 0;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid #f6e0a8;
+    padding-left: 10px;
+    -moz-box-shadow: 0 2px 4px #6b6b6b;
+    -webkit-box-shadow: 0 2px 4px #555;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.header{
+    background:url(img/head_bg.png)repeat-x;
+    height:122px;
+    margin-bottom:20px;
+}
+.header_wrapper {
+    width:1200px;
+    margin:0 auto;
+}
+
+.logo {
+    margin-top: 60px;
+    float: left;
+}
+.content {
+    padding:10px;
+    background: #fff;
+    float:left;
+    width:1180px;
+}
+.sidebar {
+    float:left;
+    width:180px;
+}
+
+.sidebar ul{
+    padding:0;
+}
+
+.sidebar li a{
+    display: block;
+    line-height: 18px;
+    position: relative;
+    overflow: hidden;
+    background: url('http://www.parimatch.com/img/2012/bg_trr.png') 6px 8px no-repeat;
+    padding-left: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #212121;
+}
+
+.sidebar li a:hover{
+background: #e8e8e8;
+}
+
+.right_sidebar {
+    float:right;
+    width:150px;
+}
+.front_main {
+    float:left;
+    margin-left:10px;
+    width:980px;
+    min-height:600px;
+}
+.front_video_player, .front_video_player img {
+    width: 300px;
+    margin:5px;
+}
+.main {
+    float:left;
+    margin-left:10px;
+    min-height:600px;
+}
+.video {
+    float:left;
+}
+.video_title {
+    text-align: center;
+}
+.video_player {
+    width: 800px;
+    margin:5px;
+}
+
+.results_balls {
+    margin:10px 10px 10px 50px;
+    float:left;
+}
+
+.ball {
+    color:#000;
+    font-family: arial, san-serif;
+    padding:2px;
+    background: #fff;
+    border: 10px solid #FF8500;
+    border-radius: 30px;
+    width: 20px;
+    text-align: center;
+    margin:5px;
+}
+
+.balls {
+}
+
+.balls li {
+    list-style: none;
+}
+
+.all_results {
+    float:left;
+    width:1000px;
+}
+.left_results {
+    width:500px;
+    float:left
+}
+.right_results {
+    width:500px;
+    float:left;
+}
+
+.tbl_all_cam
+{
+	width: 1000px;
+	background-color:white;
+	border-collapse: collapse;
+}
+
+.tbl_all_cam td
+{
+	width:330px;
+	text-align: center;	
+}
+
+
+.tbl_small_cam
+{
+	width: 500px;	
+	border-collapse: collapse;
+}
+
+.tbl_small_cam td
+{
+	border:1px solid #ccc;
+	text-align: center;
+	background-color:whire;
+}
+
+.tbl_small_cam th
+{
+	border:1px solid #ccc;
+	text-align: center;
+	font-weight: normal;
+	background-color:#ddd;
+}
+
+.tbl_big_cam
+{
+	width: 1000px;
+	background-color:white;
+	border-collapse: collapse;
+}
+
+.tbl_big_cam td
+{
+	vertical-align:top;	
+	text-align: center;	
+}
+
+.tbl_small_prop1
+{
+	width: 480px;	
+	border-collapse: collapse;
+}
+
+.tbl_small_prop1 td
+{
+	border:1px solid #ccc;
+	text-align: center;
+	background-color:whire;
+}
+
+.tbl_small_prop1 th
+{
+	border:1px solid #ccc;
+	text-align: center;
+	font-weight: normal;
+	background-color:#ddd;
+}
+
+.style_w
+        {
+            width: 165px;
+        }
+
+
+

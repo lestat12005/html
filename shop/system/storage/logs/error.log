@@ -1,0 +1,4 @@
+2016-04-26 22:04:18 - PHP Notice:  Error: EHLO not accepted from server! in /var/www/html/shop/system/library/mail.php on line 199
+2016-05-12 19:14:32 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/html/shop/system/library/mail.php on line 328
+2016-05-12 19:24:16 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/html/shop/system/library/mail.php on line 328
+2016-05-12 19:55:06 - PHP Notice:  Error: MAIL FROM not accepted from server! in /var/www/html/shop/system/library/mail.php on line 328

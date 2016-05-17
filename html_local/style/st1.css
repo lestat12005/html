@@ -1,0 +1,68 @@
+ .center {	
+	border: 1px solid #CCC;
+    width: 962px; 
+	height:762px;
+    padding: 0px; 
+    margin: 0 auto; 
+    background: #fc0;
+	overflow: hidden;
+		
+   }
+#Camera_one
+{
+	 width: 962px; 
+	height:722px;
+	 background: #000;	
+	 
+}
+
+#Control_small
+{
+	width: 962px; 
+	height:40px;
+	background: white;
+	margin:0px;
+	text-align: left;	 
+}
+
+.button
+{
+	width: 36px;
+    height: 28px;
+    margin: 6px;	
+	border-radius: 3px;
+	display: inline-block;
+	border: 1px solid #CCC;	
+	cursor: pointer;
+	-moz-user-select: none;	
+    background: #FFF  no-repeat 5px 3px;
+}
+
+.play
+{   
+	background-image:url("img/play.gif");	
+}
+.button:hover {
+	background-color:#eee;
+}
+.stop
+{   
+	background-image:url("img/stop.gif");	
+}
+.camdesc
+{
+	float: right;
+	 margin: 10px; 	
+}
+
+.pluginLink {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:center;
+    width: 960px;
+	height: 720px;  
+}
